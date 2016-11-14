@@ -1,5 +1,5 @@
 {
-  "name": "eig/eloquent-uuid",
+  "name": "eig/uuid",
   "description": "UUID allowing easy generation and assignment for event sourced systems",
   "license": "MIT",
   "keywords": ["uuid", "event sourcing"],
