@@ -21,8 +21,7 @@ trait AssignUUID
      */
     protected function assignUUID($field = null)
     {
-        if($field != null)
-        {
+        if ($field != null) {
             $this->{$field} = UUID::generate();
         } else {
             $this->id = UUID::generate();

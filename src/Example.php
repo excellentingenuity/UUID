@@ -2,7 +2,6 @@
 
 namespace eig\UUID;
 
-
 use eig\UUID\AssignUUID;
 
 /**
@@ -21,7 +20,7 @@ class Example
     /**
      * Example constructor.
      */
-    public function __construct ()
+    public function __construct()
     {
         $this->assignUUID();
     }
