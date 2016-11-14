@@ -5,7 +5,6 @@ namespace eig\UUID\Tests;
 use eig\UUID\Tests\TestCase;
 use eig\UUID\Facades\UUID;
 
-
 /**
  * Class UUID
  * @package eig\UUID\Tests
@@ -45,5 +44,4 @@ class UUIDTest extends TestCase
     {
         $this->assertUuid(UUID::generate());
     }
-
 }
