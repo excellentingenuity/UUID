@@ -3,6 +3,7 @@
 namespace eig\UUID\Tests;
 
 use Apostle\PHPUnit\Constraint\String\IsUuid;
+
 /**
  * Class TestCase
  * @package eig\UUID\Tests
