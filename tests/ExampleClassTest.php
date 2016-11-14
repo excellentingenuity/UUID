@@ -25,7 +25,7 @@ class ExampleClassTest extends TestCase
      *
      * @test
      */
-    public function setUp ()
+    public function setUp()
     {
         parent::setUp();
         $this->exampleClass = new Example();
@@ -51,5 +51,4 @@ class ExampleClassTest extends TestCase
     {
         $this->assertUuid($this->exampleClass->getID());
     }
-
 }
