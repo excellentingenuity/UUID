@@ -22,11 +22,13 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
     /**
      * assertUuid
      *
+     * Helper Method to assert if the UUID is valid
+     *
      * @param $value
      */
     public function assertIsUuid($value)
     {
-        $this->assertRegExp(self::UUID_REGEX, (string) $value);
+        return $this->assertRegExp(self::UUID_REGEX, (string) $value);
     }
 
 }
