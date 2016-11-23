@@ -4,7 +4,6 @@ namespace eig\UUID\Tests;
 
 use eig\UUID\Traits\IsUUID;
 
-
 /**
  * Class TestCase
  * @package eig\UUID\Tests
@@ -15,5 +14,4 @@ use eig\UUID\Traits\IsUUID;
 abstract class TestCase extends \PHPUnit_Framework_TestCase
 {
     use IsUUID;
-
 }
