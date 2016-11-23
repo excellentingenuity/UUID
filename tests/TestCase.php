@@ -2,7 +2,6 @@
 
 namespace eig\UUID\Tests;
 
-
 /**
  * Class TestCase
  * @package eig\UUID\Tests
@@ -30,5 +29,4 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
     {
         $this->assertRegExp(self::UUID_REGEX, (string) $value);
     }
-
 }
