@@ -49,6 +49,6 @@ class ExampleClassTest extends TestCase
      */
     public function testIDIsUUID()
     {
-        $this->assertUuid($this->exampleClass->getID());
+        $this->assertIsUuid($this->exampleClass->getID());
     }
 }

@@ -47,6 +47,6 @@ class AlternateFieldExampleTest extends TestCase
      */
     public function testIDIsUUID()
     {
-        $this->assertUuid($this->alternateExample->getAlternateID());
+        $this->assertIsUuid($this->alternateExample->getAlternateID());
     }
 }
