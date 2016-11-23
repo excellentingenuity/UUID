@@ -28,7 +28,7 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
      */
     public function assertIsUuid($value)
     {
-        return $this->assertRegExp(self::UUID_REGEX, (string) $value);
+        $this->assertRegExp(self::UUID_REGEX, (string) $value);
     }
 
 }
