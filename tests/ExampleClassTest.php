@@ -3,7 +3,7 @@
 namespace eig\UUID\Tests;
 
 use eig\UUID\Tests\TestCase;
-use eig\UUID\Example;
+use eig\UUID\Tests\Fixtures\Example;
 
 /**
  * Class ExampleClassTest

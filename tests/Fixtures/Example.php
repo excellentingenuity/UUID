@@ -1,6 +1,6 @@
 <?php
 
-namespace eig\UUID;
+namespace eig\UUID\Tests\Fixtures;
 
 use eig\UUID\AssignUUID;
 
