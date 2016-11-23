@@ -2,7 +2,6 @@
 
 namespace eig\UUID\Tests;
 
-use Apostle\PHPUnit\Constraint\String\IsUuid;
 
 /**
  * Class TestCase
@@ -13,36 +12,23 @@ use Apostle\PHPUnit\Constraint\String\IsUuid;
  */
 abstract class TestCase extends \PHPUnit_Framework_TestCase
 {
+
     /**
-     * functions added because of a lack of support for PHP 7
-     * by the phpunit-validation package that checks the UUID
-     * if support is added in the package these functions will not
-     * be necessary.
+     * The Regular Expression for a UUID
      */
+    const UUID_REGEX = '/([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})/';
 
 
     /**
      * assertUuid
-     * @param        $value
-     * @param bool   $strict
-     * @param array  $versions
-     * @param string $message
+     *
+     * Helper Method to assert if the UUID is valid
+     *
+     * @param $value
      */
-    public function assertUuid($value, $strict = false, array $versions = array(1, 2, 3, 4, 5), $message = '')
+    public function assertIsUuid($value)
     {
-        self::assertThat($value, self::isUuid($strict, $versions), $message);
+        $this->assertRegExp(self::UUID_REGEX, (string) $value);
     }
 
-    /**
-     * isUuid
-     *
-     * @param bool  $strict
-     * @param array $versions
-     *
-     * @return \Apostle\PHPUnit\Constraint\String\IsUuid
-     */
-    public static function isUuid($strict = false, array $versions = array(1, 2, 3, 4, 5))
-    {
-        return new IsUuid($strict, $versions);
-    }
 }

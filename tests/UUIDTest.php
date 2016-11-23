@@ -42,6 +42,6 @@ class UUIDTest extends TestCase
      */
     public function testIsUUID()
     {
-        $this->assertUuid(UUID::generate());
+        $this->assertIsUuid(UUID::generate());
     }
 }
