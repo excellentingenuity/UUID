@@ -3,7 +3,7 @@
 namespace eig\UUID\Tests;
 
 use eig\UUID\Tests\TestCase;
-use eig\UUID\AlternateFieldExample;
+use eig\UUID\Tests\Fixtures\AlternateFieldExample;
 
 /**
  * Class AlternateFieldExampleTest
