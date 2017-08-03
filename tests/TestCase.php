@@ -11,7 +11,7 @@ use eig\UUID\Traits\IsUUID;
  * @author James Johnson
  * @author Excellent InGenuity LLC
  */
-abstract class TestCase extends \PHPUnit_Framework_TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     use IsUUID;
 }
