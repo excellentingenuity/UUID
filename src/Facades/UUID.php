@@ -2,8 +2,6 @@
 
 namespace eig\UUID\Facades;
 
-use Ramsey\Uuid\UuidFactory;
-use Ramsey\Uuid\Generator\RandomLibAdapter;
 use Ramsey\Uuid\Uuid as RUUID;
 
 /**
@@ -22,9 +20,6 @@ class UUID
      */
     public static function generate()
     {
-        $uuidFactory = new UuidFactory();
-        $uuidFactory->setRandomGenerator(new RandomLibAdapter());
-        RUUID::setFactory($uuidFactory);
         $uuid = RUUID::uuid4();
         return $uuid;
     }
