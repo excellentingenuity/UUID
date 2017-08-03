@@ -10,7 +10,7 @@
 ## Supported PHP Versions
 - 5.6+
 - 7.0
-- hhvm
+- 7.1
 
 ## Description
 A wrapper package for easy use of the excellent Ramsey\UUID package. 
