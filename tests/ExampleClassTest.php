@@ -2,7 +2,6 @@
 
 namespace eig\UUID\Tests;
 
-use eig\UUID\Tests\TestCase;
 use eig\UUID\Tests\Fixtures\Example;
 
 /**
@@ -14,7 +13,6 @@ use eig\UUID\Tests\Fixtures\Example;
  */
 class ExampleClassTest extends TestCase
 {
-
     /**
      * @var eig/UUID/Example
      */
@@ -23,7 +21,6 @@ class ExampleClassTest extends TestCase
     /**
      * setUp
      *
-     * @test
      */
     public function setUp()
     {

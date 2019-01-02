@@ -18,15 +18,15 @@
     "wiki": "https://github.com/excellentingenuity/UUID/wiki"
   },
   "require": {
-    "php": ">=7.0",
-    "ramsey/uuid": "^3.2",
+    "php": ">=7.1",
+    "ramsey/uuid": "^3.8",
     "moontoast/math": "^1.1"
 
   },
   "require-dev": {
-    "phpunit/phpunit": "~6.2",
+    "phpunit/phpunit": "~7.0",
     "mockery/mockery": "dev-master",
-    "satooshi/php-coveralls": "^1.0"
+    "php-coveralls/php-coveralls": "^2.1"
   },
   "autoload": {
     "psr-4": {
