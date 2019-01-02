@@ -8,10 +8,9 @@
 [![Latest Unstable Version](https://poser.pugx.org/eig/uuid/v/unstable)](https://packagist.org/packages/eig/uuid) 
 
 ## Supported PHP Versions
-- 5.5
-- 5.6
-- 7.0
 - 7.1
+- 7.2
+- 7.3
 
 # Version Support
  * For PHP 5.5 use the [0.0.5 branch releases](https://github.com/excellentingenuity/UUID/releases/tag/0.5.5-2)
