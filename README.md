@@ -16,7 +16,7 @@
  * For PHP 5.5 use the [0.0.5 branch releases](https://github.com/excellentingenuity/UUID/releases/tag/0.5.5-2)
  * For PHP 5.6 use the [1.1.x branch releases](https://github.com/excellentingenuity/UUID/releases/tag/1.1.3)
  * For PHP 7.1 use the [2.1.0 release](https://github.com/excellentingenuity/UUID/releases/tag/2.1.0)
- * For PHP 7.2+ use the [2.2.x release](https://github.com/excellentingenuity/UUID/releases/tag/2.2.1)  
+ * For PHP 7.2+ use the [2.4.x release](https://github.com/excellentingenuity/UUID/releases/tag/2.4.1)  
 
 ## Description
 A wrapper package for easy use of the excellent Ramsey\UUID package. 
