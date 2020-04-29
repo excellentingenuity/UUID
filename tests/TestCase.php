@@ -14,14 +14,4 @@ use eig\UUID\Traits\IsUUID;
 abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     use IsUUID;
-
-     /**
-     * assertMatchesRegularExpression
-     * 
-     * Placeholder until move to PHPUnit9
-     */
-    // public static function assertMatchesRegularExpression($regex, $value)
-    // {
-    //     return $this->assertRegExp($regex, $value);
-    // }
 }
