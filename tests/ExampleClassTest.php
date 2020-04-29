@@ -22,7 +22,7 @@ class ExampleClassTest extends TestCase
      * setUp
      *
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->exampleClass = new Example();

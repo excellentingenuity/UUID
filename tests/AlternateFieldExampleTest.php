@@ -23,7 +23,7 @@ class AlternateFieldExampleTest extends TestCase
     /**
      * setUp
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->alternateExample = new AlternateFieldExample();
