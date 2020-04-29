@@ -19,6 +19,6 @@ trait IsUUID
      */
     public function assertIsUuid($value)
     {
-        $this->assertMatchesRegularExpression(self::$UUID_REGEX, (string) $value);
+        $this->assertRegExp(self::$UUID_REGEX, (string) $value);
     }
 }

@@ -20,8 +20,8 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
      * 
      * Placeholder until move to PHPUnit9
      */
-    public function assertMatchesRegularExpression($regex, $value)
-    {
-        return $this->assertRegExp($regex, $value);
-    }
+    // public static function assertMatchesRegularExpression($regex, $value)
+    // {
+    //     return $this->assertRegExp($regex, $value);
+    // }
 }
