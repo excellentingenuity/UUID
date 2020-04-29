@@ -18,9 +18,8 @@
     "wiki": "https://github.com/excellentingenuity/UUID/wiki"
   },
   "require": {
-    "php": ">=7.1",
-    "ramsey/uuid": "^3.8",
-    "moontoast/math": "^1.1"
+    "php": ">=7.2",
+    "ramsey/uuid": "^3.0"
 
   },
   "require-dev": {
