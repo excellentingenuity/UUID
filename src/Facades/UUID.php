@@ -23,4 +23,9 @@ class UUID
         $uuid = RUUID::uuid4();
         return $uuid;
     }
+
+    public static function isUUID($uuid)
+    {
+        return RUUID::isValid($uuid);
+    }
 }
