@@ -47,7 +47,6 @@ class UUIDTest extends TestCase
 
     /**
      * testUUIDValid
-     * 
      * @test
      * @return void
      */
@@ -58,7 +57,6 @@ class UUIDTest extends TestCase
 
     /**
      * testUUIDInvalid
-     * 
      * @test
      * @return void
      */

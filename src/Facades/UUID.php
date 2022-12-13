@@ -26,7 +26,6 @@ class UUID
 
     /**
      * isUUID
-     * 
      * checks if the supplied string is a valid uuid
      *
      * @param  string  $uuid
