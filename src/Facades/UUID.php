@@ -23,4 +23,17 @@ class UUID
         $uuid = RUUID::uuid4();
         return $uuid;
     }
+
+    /**
+     * isUUID
+     * checks if the supplied string is a valid uuid
+     *
+     * @param  string  $uuid
+     *
+     * @return boolean
+     */
+    public static function isUUID(string $uuid)
+    {
+        return RUUID::isValid($uuid);
+    }
 }
